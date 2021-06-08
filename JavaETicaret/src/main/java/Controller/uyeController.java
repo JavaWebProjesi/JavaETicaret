@@ -18,7 +18,7 @@ public class uyeController extends databaseConnection{
  	   try {
  		   String sorgu="SELECT * FROM uye";
  		   Class.forName("com.mysql.jdbc.Driver");
- 		    con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+ 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
             ps=con.prepareStatement(sorgu);
             ResultSet rs=ps.executeQuery();
             List<uyeModel> liste=new ArrayList<>();
@@ -60,7 +60,7 @@ public class uyeController extends databaseConnection{
 	 	   try {
 	 		   String sorgu="INSERT INTO uye(kullaniciAdi,ad,soyad,telefon,eMail,sifre,sehir,ilce,adres) VALUES(?,?,?,?,?,?,?,?,?)";
 	 		   Class.forName("com.mysql.jdbc.Driver");
-	 		    con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 	            ps=con.prepareStatement(sorgu);
 	            
 	            
@@ -113,7 +113,7 @@ public class uyeController extends databaseConnection{
 			try {
 				String sorgu="DELETE FROM uye WHERE kullaniciAdi=?";
 				Class.forName("com.mysql.jdbc.Driver");
-				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 				ps=con.prepareStatement(sorgu);	    
 	            ps.setString(1,uyemodel.getKullaniciAdi());
 	            ps.executeUpdate();
@@ -151,7 +151,7 @@ public class uyeController extends databaseConnection{
 			try {
 				String sorgu="UPDATE uye SET ad=?,soyad=?,telefon=?,eMail=?,sifre=?,sehir=?,ilce=?,adres=? WHERE kullaniciAdi=?";
 				Class.forName("com.mysql.jdbc.Driver");
-				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 				ps=con.prepareStatement(sorgu);	    
 		        
 				
@@ -198,7 +198,7 @@ public class uyeController extends databaseConnection{
 			try {
 				String sorgu="UPDATE uye SET ad=?,soyad=?,telefon=?,eMail=?,sehir=?,ilce=?,adres=? WHERE kullaniciAdi=?";
 				Class.forName("com.mysql.jdbc.Driver");
-				con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 				ps=con.prepareStatement(sorgu);	    
 		        
 				
@@ -248,7 +248,7 @@ public class uyeController extends databaseConnection{
 					
 					String sorgu="SELECT kullaniciAdi,sifre FROM uye";
 		 		   	Class.forName("com.mysql.jdbc.Driver");
-		 		    con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 		            ps=con.prepareStatement(sorgu);	
 		            
 		            ResultSet rs=ps.executeQuery();
@@ -293,7 +293,7 @@ public class uyeController extends databaseConnection{
 		 	   try {
 		 		   String sorgu="SELECT * FROM uye WHERE kullaniciAdi=?";
 		 		   Class.forName("com.mysql.jdbc.Driver");
-		 		    con=DriverManager.getConnection("jdbc:mysql://localhost:3306/eticaret","root","");
+		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","12345");
 		            ps=con.prepareStatement(sorgu);
 		            ps.setString(1,user);
 		            ResultSet rs=ps.executeQuery();
