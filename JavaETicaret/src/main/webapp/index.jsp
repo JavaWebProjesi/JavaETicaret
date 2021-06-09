@@ -41,12 +41,12 @@
           <li class="active"><a href="index.html">Ana Sayfa</a></li>
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
-              <li><a href="pages/gallery.html">Meyve, Sebze</a></li>
-              <li><a href="pages/full-width.html">Et, Tavuk, Balık</a></li>
-              <li><a href="pages/sidebar-left.html">Süt, Kahvaltılık</a></li>
-              <li><a href="pages/sidebar-right.html">İçecek</a></li>
-              <li><a href="pages/basic-grid.html">Gıda, Şekerleme</a></li>
-              <li><a href="pages/font-icons.html">Dondurma</a></li>
+              <li><a href="market/meyve.jsp">Meyve, Sebze</a></li>
+              <li><a href="market/et.jsp">Et, Tavuk, Balık</a></li>
+              <li><a href="market/sut.jsp">Süt, Kahvaltılık</a></li>
+              <li><a href="market/icecek.jsp">İçecek</a></li>
+              <li><a href="market/gida.jsp">Gıda, Şekerleme</a></li>
+              <li><a href="market/dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
           <li><a class="drop" href="#">Sepetim</a>
@@ -69,7 +69,7 @@
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="pages/gallery.html"><img src="http://www.gidavitrini.com.tr/images/haberler/81_ile_sebze_meyve_talimati_h12870.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/meyve.jsp"><img src="http://www.gidavitrini.com.tr/images/haberler/81_ile_sebze_meyve_talimati_h12870.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">Meyve - Sebze</h6>
               <div>
@@ -79,7 +79,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="pages/full-width.html"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/et.jsp"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">Et - Tavuk - Balık</h6>
               <div>
@@ -89,7 +89,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="pages/sidebar-left.html"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/sut.jsp"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">Süt - Kahvaltılık</h6>
               <div>
@@ -109,7 +109,7 @@
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="pages/sidebar-right.html"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/icecek.jsp"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">İçecek</h6>
               <div>
@@ -119,7 +119,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="pages/basic-grid.html"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/gida.jsp"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">Gıda - Şekerleme</h6>
               <div>
@@ -129,7 +129,7 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="pages/font-icons.html"><img src="https://i.ytimg.com/vi/cc-BqBgE8dU/maxresdefault.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/dondurma.jsp"><img src="https://i.ytimg.com/vi/cc-BqBgE8dU/maxresdefault.jpg" alt=""></a>
             <figcaption>
               <h6 class="heading">Dondurma</h6>
               <div>

@@ -61,7 +61,7 @@
 <div class="overlay">
     <div id="pageintro" class="hoc clear"> 
       <article>
-        <h3 class="heading">Meyve - Sebze</h3>
+        <h3 class="heading">Süt - Kahvaltılık</h3>
       </article>
     </div>
   </div>
@@ -70,9 +70,9 @@
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/28260009/maydanoz-adet-659b84.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="http://www.gidavitrini.com.tr/images/haberler/81_ile_sebze_meyve_talimati_h12870.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Maydanoz Adet</h6>
+              <h6 class="heading">Meyve - Sebze</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -80,9 +80,9 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/28080000/domates-kg-c7462d.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Domates Kg</h6>
+              <h6 class="heading">Et - Tavuk - Balık</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -90,9 +90,9 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27270000/muz-yerli-kg-9d3d01.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Muz Yerli Kg</h6>
+              <h6 class="heading">Süt - Kahvaltılık</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>

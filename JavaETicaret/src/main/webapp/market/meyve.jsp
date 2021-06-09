@@ -61,7 +61,7 @@
 <div class="overlay">
     <div id="pageintro" class="hoc clear"> 
       <article>
-        <h3 class="heading">Et - Tavuk - Balık</h3>
+        <h3 class="heading">Meyve - Sebze</h3>
       </article>
     </div>
   </div>
