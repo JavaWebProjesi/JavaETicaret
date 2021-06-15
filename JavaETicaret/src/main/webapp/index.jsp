@@ -13,8 +13,8 @@
     </div>
     <div class="fl_right"> 
       <ul class="nospace">
-        <li><a href="#" title="Giriş"><i class="fas fa-sign-in-alt"></i></a></li>
-        <li><a href="#" title="Kayıt Ol"><i class="fas fa-user-plus"></i></a></li>
+        <li><a href="kullanici/uyeGiris.jsp" title="Giriş"><i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="kullanici/uyeKayit.jsp" title="Kayıt Ol"><i class="fas fa-user-plus"></i></a></li>
         <li id="searchform">
           <div>
             <form action="#" method="post">
