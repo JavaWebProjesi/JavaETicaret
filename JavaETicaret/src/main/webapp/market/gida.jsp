@@ -44,10 +44,10 @@
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
               <li><a href="pages/gallery.html">Meyve, Sebze</a></li>
-              <li><a href="pages/full-width.html">Et, Tavuk, Balık</a></li>
-              <li><a href="pages/sidebar-left.html">Süt, Kahvaltılık</a></li>
-              <li><a href="pages/sidebar-right.html">İçecek</a></li>
-              <li><a href="pages/basic-grid.html">Gıda, Şekerleme</a></li>
+              <li><a href="pages/full-width.html">Et, Tavuk, Balik</a></li>
+              <li><a href="pages/sidebar-left.html">Sut, Kahvaltılık</a></li>
+              <li><a href="pages/sidebar-right.html">Icecek</a></li>
+              <li><a href="pages/basic-grid.html">Gida, Sekerleme</a></li>
               <li><a href="pages/font-icons.html">Dondurma</a></li>
             </ul>
           </li>
@@ -61,7 +61,7 @@
 <div class="overlay">
     <div id="pageintro" class="hoc clear"> 
       <article>
-        <h3 class="heading">Gıda - Şekerleme</h3>
+        <h3 class="heading">Gida - Sekerleme</h3>
       </article>
     </div>
   </div>

@@ -19,7 +19,7 @@
           <div>
             <form action="#" method="post">
               <fieldset>
-                <legend>Ürün Ara:</legend>
+                <legend>Urun Ara:</legend>
                 <input type="text" placeholder="Ürün Adı&hellip;">
                 <button type="submit"><i class="fas fa-search"></i></button>
               </fieldset>
@@ -42,10 +42,10 @@
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
               <li><a href="market/meyve.jsp">Meyve, Sebze</a></li>
-              <li><a href="market/et.jsp">Et, Tavuk, Balık</a></li>
-              <li><a href="market/sut.jsp">Süt, Kahvaltılık</a></li>
-              <li><a href="market/icecek.jsp">İçecek</a></li>
-              <li><a href="market/gida.jsp">Gıda, Şekerleme</a></li>
+              <li><a href="market/et.jsp">Et, Tavuk, Balik</a></li>
+              <li><a href="market/sut.jsp">Sut, Kahvaltilik</a></li>
+              <li><a href="market/icecek.jsp">Icecek</a></li>
+              <li><a href="market/gida.jsp">Gida, Sekerleme</a></li>
               <li><a href="market/dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
@@ -58,8 +58,8 @@
   <div class="overlay">
     <div id="pageintro" class="hoc clear"> 
       <article>
-        <h3 class="heading">Alış-verişin En Kolay Yolu</h3>
-        <footer><a class="btn" href="#">Alış-verişe Başla</a></footer>
+        <h3 class="heading">Alis-verisin En Kolay Yolu</h3>
+        <footer><a class="btn" href="kullanici/uyeGiris.jsp">Alis-verise Basla</a></footer>
       </article>
     </div>
   </div>
@@ -73,7 +73,7 @@
             <figcaption>
               <h6 class="heading">Meyve - Sebze</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -81,9 +81,9 @@
         <li class="one_third">
           <figure><a class="imgover" href="market/et.jsp"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Et - Tavuk - Balık</h6>
+              <h6 class="heading">Et - Tavuk - Balik</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -91,9 +91,9 @@
         <li class="one_third">
           <figure><a class="imgover" href="market/sut.jsp"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Süt - Kahvaltılık</h6>
+              <h6 class="heading">Sut - Kahvaltilik</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -111,9 +111,9 @@
         <li class="one_third first">
           <figure><a class="imgover" href="market/icecek.jsp"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">İçecek</h6>
+              <h6 class="heading">Icecek</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -121,9 +121,9 @@
         <li class="one_third">
           <figure><a class="imgover" href="market/gida.jsp"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Gıda - Şekerleme</h6>
+              <h6 class="heading">Gida - Sekerleme</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -133,7 +133,7 @@
             <figcaption>
               <h6 class="heading">Dondurma</h6>
               <div>
-                <p>Göz At</p>
+                <p>Goz At</p>
               </div>
             </figcaption>
           </figure>
@@ -148,7 +148,7 @@
   <figure class="hoc container clear imgroup"> 
     <figcaption class="sectiontitle">
       <p class="nospace font-xs">Herkes Satın Alıyor</p>
-      <p class="heading underline font-x2">En Çok Satanlar</p>
+      <p class="heading underline font-x2">En Cok Satanlar</p>
     </figcaption>
     <ul class="nospace group">
       <li class="one_third"><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/05120000/05120000-a957e2.jpg" alt=""></a></li>
@@ -163,28 +163,28 @@
 <div class="wrapper row2">
   <div class="hoc container clear"> 
     <div class="sectiontitle">
-      <p class="nospace font-xs">Çok Ucuzlar</p>
-      <p class="heading underline font-x2">Büyük İndirim Var</p>
+      <p class="nospace font-xs">Cok Ucuzlar</p>
+      <p class="heading underline font-x2">Büyük Indirim Var</p>
     </div>
     <ul class="nospace group team">
       <li class="one_quarter first">
         <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08010908/08010908-8b732a.jpg" alt=""></a>
-          <figcaption><strong>%50 İndirim</strong> <em>Sprite Limon Aromalı Gazoz 4X1 L Pet</em></figcaption>
+          <figcaption><strong>%50 Indirim</strong> <em>Sprite Limon Aromali Gazoz 4X1 L Pet</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
         <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/04110419/04110419-a075d7.jpg" alt=""></a>
-          <figcaption><strong>%30 İndirim</strong> <em>Yudum Ayçiçek Yağı 4 L Pet</em></figcaption>
+          <figcaption><strong>%30 Indirim</strong> <em>Yudum Ayciçek Yagı 4 L Pet</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
         <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/07040280/07040280-cd02f6.jpg" alt=""></a>
-          <figcaption><strong>%40 İndirim</strong> <em>Kinder Chocolate 8'li 100</em></figcaption>
+          <figcaption><strong>%40 Indirim</strong> <em>Kinder Chocolate 8'li 100</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
         <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08038974/08038974-8944ae.jpg" alt=""></a>
-          <figcaption><strong>%25 İndirim</strong> <em>Lipton Ice Tea Şekersiz Şeftali Aromalı İçecek Pet 1 L</em></figcaption>
+          <figcaption><strong>%25 Indirim</strong> <em>Lipton Ice Tea Sekersiz Seftali Aromali Icecek Pet 1 L</em></figcaption>
         </figure>
       </li>
     </ul>
@@ -192,22 +192,21 @@
 </div>
 <div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
   <footer id="footer" class="hoc clear"> 
-    <!-- ################################################################################################ -->
     <div class="one_quarter first">
-      <h6 class="heading"><img src="https://static.birgun.net/resim/haber-detay-resim/2019/10/14/rastgele-kredi-karti-dagitan-bankalara-yargitay-dan-kotu-haber-636487-5.jpg" alt="">Esnek Ödeme İmkanları</h6>
+      <h6 class="heading"><img src="https://static.birgun.net/resim/haber-detay-resim/2019/10/14/rastgele-kredi-karti-dagitan-bankalara-yargitay-dan-kotu-haber-636487-5.jpg" alt="">Esnek Odeme Imkanları</h6>
       <ul class="nospace linklist">
       </ul>
     </div>
     <div class="one_quarter">
-      <h6 class="heading"><img src="https://img2.pngindir.com/20180629/brv/kisspng-food-delivery-courier-service-food-delivery-delivery-man-5b35bea4c0e2a3.1240573915302488687901.jpg" alt="">İstediğin Saatte Teslimat</h6>
+      <h6 class="heading"><img src="https://img2.pngindir.com/20180629/brv/kisspng-food-delivery-courier-service-food-delivery-delivery-man-5b35bea4c0e2a3.1240573915302488687901.jpg" alt="">Istedigin Saatte Teslimat</h6>
     </div>
     <div class="one_quarter">
-      <h6 class="heading"><img src="https://i.ytimg.com/vi/IKqYiZQFpv8/maxresdefault.jpg" alt="">Özenle Seçilmiş, Paketlenmiş Ürünler</h6>
+      <h6 class="heading"><img src="https://i.ytimg.com/vi/IKqYiZQFpv8/maxresdefault.jpg" alt="">Ozenle Secilmis, Paketlenmis Urunler</h6>
       <ul class="nospace linklist">
       </ul>
     </div>
     <div class="one_quarter">
-      <h6 class="heading"><img src="http://1.bp.blogspot.com/-Oognp7J4kU8/UAbQTl3tqAI/AAAAAAAAAE4/jdQEuXztg4I/s1600/Java+2+SE+for+Mac-.jpg" alt="">Java Kart İmkanları</h6>
+      <h6 class="heading"><img src="http://1.bp.blogspot.com/-Oognp7J4kU8/UAbQTl3tqAI/AAAAAAAAAE4/jdQEuXztg4I/s1600/Java+2+SE+for+Mac-.jpg" alt="">Java Kart Imkanları</h6>
       <ul class="nospace clear latestimg">
       </ul>
     </div>
@@ -217,7 +216,7 @@
   <section id="ctdetails" class="hoc clear"> 
     <ul class="nospace clear">
       <li class="one_quarter first">
-        <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Telefon Numaramız:</strong> +00 (123) 456 7890</span></div>
+        <div class="block clear"><a href="#"><i class="fas fa-phone"></i></a> <span><strong>Telefon Numaramiz:</strong> +00 (123) 456 7890</span></div>
       </li>
       <li class="one_quarter">
         <div class="block clear"><a href="#"><i class="fas fa-envelope"></i></a> <span><strong>Mail:</strong> destek@gmail.com</span></div>
