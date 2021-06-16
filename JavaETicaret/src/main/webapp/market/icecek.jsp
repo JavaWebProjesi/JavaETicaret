@@ -21,7 +21,7 @@
           <div>
             <form action="#" method="post">
               <fieldset>
-                <legend>Ürün Ara:</legend>
+                <legend>Urun Ara:</legend>
                 <input type="text" placeholder="Ürün Adı&hellip;">
                 <button type="submit"><i class="fas fa-search"></i></button>
               </fieldset>
@@ -44,10 +44,10 @@
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
               <li><a href="pages/gallery.html">Meyve, Sebze</a></li>
-              <li><a href="pages/full-width.html">Et, Tavuk, Balık</a></li>
-              <li><a href="pages/sidebar-left.html">Süt, Kahvaltılık</a></li>
-              <li><a href="pages/sidebar-right.html">İçecek</a></li>
-              <li><a href="pages/basic-grid.html">Gıda, Şekerleme</a></li>
+              <li><a href="pages/full-width.html">Et, Tavuk, Balik</a></li>
+              <li><a href="pages/sidebar-left.html">Sut, Kahvaltilik</a></li>
+              <li><a href="pages/sidebar-right.html">Icecek</a></li>
+              <li><a href="pages/basic-grid.html">Gida, Sekerleme</a></li>
               <li><a href="pages/font-icons.html">Dondurma</a></li>
             </ul>
           </li>
@@ -61,7 +61,7 @@
 <div class="overlay">
     <div id="pageintro" class="hoc clear"> 
       <article>
-        <h3 class="heading">İçecek</h3>
+        <h3 class="heading">Icecek</h3>
       </article>
     </div>
   </div>
@@ -82,7 +82,7 @@
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Et - Tavuk - Balık</h6>
+              <h6 class="heading">Et - Tavuk - Balik</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -92,7 +92,7 @@
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Süt - Kahvaltılık</h6>
+              <h6 class="heading">Sut - Kahvaltilik</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>

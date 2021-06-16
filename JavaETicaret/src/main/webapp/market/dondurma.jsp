@@ -21,7 +21,7 @@
           <div>
             <form action="#" method="post">
               <fieldset>
-                <legend>Ürün Ara:</legend>
+                <legend>Urun Ara:</legend>
                 <input type="text" placeholder="Ürün Adı&hellip;">
                 <button type="submit"><i class="fas fa-search"></i></button>
               </fieldset>
