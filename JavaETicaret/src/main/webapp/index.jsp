@@ -49,7 +49,7 @@
               <li><a href="market/dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
-          <li><a class="drop" href="#">Sepetim</a>
+          <li><a class="drop" href="market/sepet.jsp">Sepetim</a>
           </li>
         </ul>
       </nav>
