@@ -19,7 +19,7 @@ public class yoneticiController extends databaseConnection{
 	 	   try {
 	 		   String sorgu="SELECT * FROM yonetici";
 	 		   Class.forName("com.mysql.jdbc.Driver");
-	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 	            ps=con.prepareStatement(sorgu);
 	            ResultSet rs=ps.executeQuery();
 	            List<yoneticiModel> liste=new ArrayList<>();
@@ -63,7 +63,7 @@ public class yoneticiController extends databaseConnection{
 			
 			String sorgu="SELECT kullaniciAdi,sifre FROM yonetici";
  		   	Class.forName("com.mysql.jdbc.Driver");
- 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+ 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
             ps=con.prepareStatement(sorgu);		            
             ResultSet rs=ps.executeQuery();
             while(rs.next()) 
@@ -107,7 +107,7 @@ public class yoneticiController extends databaseConnection{
 		 	   try {
 		 		   String sorgu="INSERT INTO yonetici(kullaniciAdi,sifre) VALUES(?,?)";
 		 		   Class.forName("com.mysql.jdbc.Driver");
-		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 		            ps=con.prepareStatement(sorgu);
 		            
 		            
@@ -151,7 +151,7 @@ public class yoneticiController extends databaseConnection{
 				try {
 					String sorgu="DELETE FROM yonetici WHERE kullaniciAdi=?";
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 					ps=con.prepareStatement(sorgu);	    
 		            ps.setString(1,yonetici.getKullaniciAdi());
 		            ps.executeUpdate();
@@ -193,7 +193,7 @@ public class yoneticiController extends databaseConnection{
 		try {
 			String sorgu="UPDATE yonetici SET sifre=? WHERE kullaniciAdi=?";
 			Class.forName("com.mysql.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+			con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 			ps=con.prepareStatement(sorgu);	    
 	        
             ps.setString(1,yonetici.getSifre());

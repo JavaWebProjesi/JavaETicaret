@@ -14,7 +14,7 @@
 		 Cookie cookie = new Cookie("username",kullaniciAdi);
 		 cookie.setMaxAge(60 * 60 * 24);
          response.addCookie(cookie);
-		 response.sendRedirect("Home.jsp");
+		 response.sendRedirect("index.jsp");
 	 		
 	}
 	else {

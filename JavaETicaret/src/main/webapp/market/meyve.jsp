@@ -1,3 +1,8 @@
+<%@ page import="java.io.*" %>
+<%@ page language="java" import="java.sql.*" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page import ="Controller.urunController,Model.urunModel,java.util.*,Controller.kategoriController,Model.kategoriModel"%>
+
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -109,36 +114,46 @@
   <main class="hoc container clear"> 
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
-        <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">İçecek</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
+ 		<%        
+                         String uk=request.getParameter("urunKodu");
+                         String urunFotograf=request.getParameter("urunFotograf");
+                         String urunAd=request.getParameter("urunAdi");
+                         String uf=request.getParameter("urunFiyati");
+                         if((uk!=null) && (urunFotograf!=null) && (urunAd!=null) && (uf!=null)){
+                             int urunKodu=Integer.valueOf(uk);
+                             int urunFiyati=Integer.valueOf(uf);
+                             List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
+                             if(sepetim==null){
+                                 sepetim=new ArrayList<>();
+                             }
+                             urunModel sepetUrun=new urunModel(urunKodu,urunFotograf,urunAd,urunFiyati);
+                             sepetim.add(sepetUrun);
+                             session.setAttribute("sepet",sepetim);
+                         }    
+                 %>
+<%
+urunController data=new urunController();
+List<urunModel> urunler=data.readingData();
+for(urunModel urun:urunler){
+    %>
+    
+    
+    
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Gıda - Şekerleme</h6>
+              <h6 class="heading"><%= urun.getUrunAdi() %></h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
             </figcaption>
           </figure>
         </li>
-        <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://i.ytimg.com/vi/cc-BqBgE8dU/maxresdefault.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Dondurma</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
+    <% 
+}
+
+%>
+        
       </ul>
     </section>
     <hr class="btmspace-80">
