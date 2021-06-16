@@ -13,7 +13,7 @@
     </div>
     <div class="fl_right"> 
       <ul class="nospace">
-        <li><a href="kullanici/uyeGiris.jsp" title="Giriş"><i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="uyeGiris.jsp" title="Giriş"><i class="fas fa-sign-in-alt"></i></a></li>
         <li><a href="kullanici/uyeKayit.jsp" title="Kayıt Ol"><i class="fas fa-user-plus"></i></a></li>
         <li id="searchform">
           <div>
@@ -59,7 +59,7 @@
     <div id="pageintro" class="hoc clear"> 
       <article>
         <h3 class="heading">Alis-verisin En Kolay Yolu</h3>
-        <footer><a class="btn" href="kullanici/uyeGiris.jsp">Alis-verise Basla</a></footer>
+        <footer><a class="btn" href="uyeGiris.jsp">Alis-verise Basla</a></footer>
       </article>
     </div>
   </div>

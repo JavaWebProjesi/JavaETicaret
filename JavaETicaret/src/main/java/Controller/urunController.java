@@ -17,7 +17,7 @@ public class urunController extends databaseConnection{
 	 	   try {
 	 		   String sorgu="SELECT * FROM urun WHERE kategoriKodu=?";
 	 		   Class.forName("com.mysql.jdbc.Driver");
-	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 	            ps=con.prepareStatement(sorgu);
 	            ps.setInt(1,kategoriKodu);
 	            ResultSet rs=ps.executeQuery();
@@ -53,18 +53,19 @@ public class urunController extends databaseConnection{
 	
 	
 	public List<urunModel> readingData(){
-	   	 
-	 	   try {
+		
+	   	 	 	   try {
+
 	 		   String sorgu="SELECT * FROM urun";
 	 		   Class.forName("com.mysql.jdbc.Driver");
-	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 	            ps=con.prepareStatement(sorgu);
 	            
 	            ResultSet rs=ps.executeQuery();
 	            List<urunModel> liste=new ArrayList<>();
 	            while(rs.next())
 	            {
-	            	urunModel uye=new urunModel(rs.getInt("urunKodu"),rs.getString("urunAdi"),rs.getString("urunDetay"),
+	            	urunModel uye=new urunModel(rs.getInt("urunKodu"),rs.getString("urunAdi"),rs.getString("urunAciklama"),
 	            			rs.getInt("urunFiyat"),rs.getInt("urunAdet"),rs.getString("fotograf"),rs.getInt("ozelkategori"),rs.getInt("kategoriKodu"));
 	            		
 	            	liste.add(uye);
@@ -98,7 +99,7 @@ public class urunController extends databaseConnection{
 		 	   try {
 		 		   String sorgu="INSERT INTO urun(urunKodu,urunAdi,urunDetay,urunFiyat,urunAdet,fotograf,ozelkategori,kategoriKodu) VALUES(?,?,?,?,?,?,?,?)";
 		 		   Class.forName("com.mysql.jdbc.Driver");
-		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 		            ps=con.prepareStatement(sorgu);
 		            
 		            
@@ -151,7 +152,7 @@ public class urunController extends databaseConnection{
 				try {
 					String sorgu="DELETE FROM urun WHERE urunKodu=?";
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 					ps=con.prepareStatement(sorgu);	    
 		            ps.setInt(1, urun.getUrunKodu());
 		            ps.executeUpdate();
@@ -189,7 +190,7 @@ public class urunController extends databaseConnection{
 				try {
 					String sorgu="UPDATE urun SET urunAdi=?,urunDetay=?,urunFiyat=?,urunAdet=?,fotograf=?,ozelkategori=?,kategoriKodu=? WHERE urunKodu=?";
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 					ps=con.prepareStatement(sorgu);	    
 			        
 		            ps.setString(1, urun.getUrunAdi());
@@ -233,7 +234,7 @@ public class urunController extends databaseConnection{
 			 	   try {
 			 		   String sorgu="SELECT * FROM urun WHERE ozelkategori=?";
 			 		   Class.forName("com.mysql.jdbc.Driver");
-			 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+			 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 			            ps=con.prepareStatement(sorgu);
 			            ps.setInt(1,kategoriKodu);
 			            ResultSet rs=ps.executeQuery();
@@ -272,13 +273,13 @@ public class urunController extends databaseConnection{
 			 	   try {
 			 		   String sorgu="SELECT * FROM urun WHERE urunKodu=?";
 			 		   Class.forName("com.mysql.jdbc.Driver");
-			 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+			 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 			            ps=con.prepareStatement(sorgu);
 			            ps.setInt(1,urun.getUrunKodu());
 			            ResultSet rs=ps.executeQuery();
 			            
 			           
-			            	uye=new urunModel(rs.getInt("urunKodu"),rs.getString("urunAdi"),rs.getString("urunDetay"),
+			            	uye=new urunModel(rs.getInt("urunKodu"),rs.getString("urunAdi"),rs.getString("urunAciklama"),
 			            			rs.getInt("urunFiyat"),rs.getInt("urunAdet"),rs.getString("fotograf"),rs.getInt("ozelkategori"),rs.getInt("kategoriKodu"));
 			            		
 			            	
@@ -312,16 +313,13 @@ public class urunController extends databaseConnection{
 						boolean result=false;
 					
 						try {
-							
 							String sorgu="SELECT * FROM urun";
 				 		   	Class.forName("com.mysql.jdbc.Driver");
-				 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+				 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 				            ps=con.prepareStatement(sorgu);		            
 				            ResultSet rs=ps.executeQuery();
 				            while(rs.next()) 
 				             {
-				            	
-				 
 				            	if(urun.getUrunKodu()==(rs.getInt("urunKodu")))
 				            	{
 				                  result=true; 
