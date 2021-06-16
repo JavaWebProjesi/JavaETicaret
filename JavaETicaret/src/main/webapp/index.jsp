@@ -147,7 +147,7 @@
 <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');">
   <figure class="hoc container clear imgroup"> 
     <figcaption class="sectiontitle">
-      <p class="nospace font-xs">Herkes Satın Alıyor</p>
+      <p class="nospace font-xs">Herkes Satin Aliyor</p>
       <p class="heading underline font-x2">En Cok Satanlar</p>
     </figcaption>
     <ul class="nospace group">
@@ -164,7 +164,7 @@
   <div class="hoc container clear"> 
     <div class="sectiontitle">
       <p class="nospace font-xs">Cok Ucuzlar</p>
-      <p class="heading underline font-x2">Büyük Indirim Var</p>
+      <p class="heading underline font-x2">Buyuk Indirim Var</p>
     </div>
     <ul class="nospace group team">
       <li class="one_quarter first">
@@ -174,7 +174,7 @@
       </li>
       <li class="one_quarter">
         <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/04110419/04110419-a075d7.jpg" alt=""></a>
-          <figcaption><strong>%30 Indirim</strong> <em>Yudum Ayciçek Yagı 4 L Pet</em></figcaption>
+          <figcaption><strong>%30 Indirim</strong> <em>Yudum Aycicek Yagi 4 L Pet</em></figcaption>
         </figure>
       </li>
       <li class="one_quarter">
@@ -193,7 +193,7 @@
 <div class="bgded overlay row4" style="background-image:url('images/demo/backgrounds/01.png');">
   <footer id="footer" class="hoc clear"> 
     <div class="one_quarter first">
-      <h6 class="heading"><img src="https://static.birgun.net/resim/haber-detay-resim/2019/10/14/rastgele-kredi-karti-dagitan-bankalara-yargitay-dan-kotu-haber-636487-5.jpg" alt="">Esnek Odeme Imkanları</h6>
+      <h6 class="heading"><img src="https://static.birgun.net/resim/haber-detay-resim/2019/10/14/rastgele-kredi-karti-dagitan-bankalara-yargitay-dan-kotu-haber-636487-5.jpg" alt="">Esnek Odeme Imkanlari</h6>
       <ul class="nospace linklist">
       </ul>
     </div>
@@ -206,7 +206,7 @@
       </ul>
     </div>
     <div class="one_quarter">
-      <h6 class="heading"><img src="http://1.bp.blogspot.com/-Oognp7J4kU8/UAbQTl3tqAI/AAAAAAAAAE4/jdQEuXztg4I/s1600/Java+2+SE+for+Mac-.jpg" alt="">Java Kart Imkanları</h6>
+      <h6 class="heading"><img src="http://1.bp.blogspot.com/-Oognp7J4kU8/UAbQTl3tqAI/AAAAAAAAAE4/jdQEuXztg4I/s1600/Java+2+SE+for+Mac-.jpg" alt="">Java Kart Imkanlari</h6>
       <ul class="nospace clear latestimg">
       </ul>
     </div>
