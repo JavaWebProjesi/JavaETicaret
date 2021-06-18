@@ -1,3 +1,8 @@
+<%@ page import="java.io.*" %>
+<%@ page language="java" import="java.sql.*" %>
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@page import ="Controller.urunController,Model.urunModel,java.util.*,Controller.kategoriController,Model.kategoriModel"%>
+
 <!DOCTYPE html>
 <html lang="">
 <head>
@@ -36,22 +41,22 @@
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left"> 
-        <h1><a href="index.html">JavaETicaret</a></h1>
+        <h1><a href="index.jsp">JavaETicaret</a></h1>
       </div>
       <nav id="mainav" class="fl_right"> 
         <ul class="clear">
-          <li class="active"><a href="index.html">Ana Sayfa</a></li>
+          <li class="active"><a href="index.jsp">Ana Sayfa</a></li>
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
-              <li><a href="pages/gallery.html">Meyve, Sebze</a></li>
-              <li><a href="pages/full-width.html">Et, Tavuk, Balik</a></li>
-              <li><a href="pages/sidebar-left.html">Sut, Kahvaltilik</a></li>
-              <li><a href="pages/sidebar-right.html">Icecek</a></li>
-              <li><a href="pages/basic-grid.html">Gida, Sekerleme</a></li>
-              <li><a href="pages/font-icons.html">Dondurma</a></li>
+              <li><a href="meyve.jsp">Meyve, Sebze</a></li>
+              <li><a href="et.jsp">Et, Tavuk, Balik</a></li>
+              <li><a href="sut.jsp">Sut, Kahvaltilik</a></li>
+              <li><a href="icecek.jsp">Icecek</a></li>
+              <li><a href="gida.jsp">Gida, Sekerleme</a></li>
+              <li><a href="dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
-          <li><a class="drop" href="#">Sepetim</a>
+          <li><a class="drop" href="market/sepet.jsp">Sepetim</a>
           </li>
         </ul>
       </nav>
@@ -109,6 +114,45 @@
   <main class="hoc container clear"> 
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
+ 		<%        
+                         String uk=request.getParameter("urunKodu");
+                         String urunFotograf=request.getParameter("urunFotograf");
+                         String urunAd=request.getParameter("urunAdi");
+                         String uf=request.getParameter("urunFiyati");
+                         if((uk!=null) && (urunFotograf!=null) && (urunAd!=null) && (uf!=null)){
+                             int urunKodu=Integer.valueOf(uk);
+                             int urunFiyati=Integer.valueOf(uf);
+                             List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
+                             if(sepetim==null){
+                                 sepetim=new ArrayList<>();
+                             }
+                             urunModel sepetUrun=new urunModel(urunKodu,urunFotograf,urunAd,urunFiyati);
+                             sepetim.add(sepetUrun);
+                             session.setAttribute("sepet",sepetim);
+                         }    
+                 %>
+<%
+urunController data=new urunController();
+List<urunModel> urunler=data.readingData();
+for(urunModel urun:urunler){
+    %>
+    
+    
+    
+        <li class="one_third">
+          <figure><a class="imgover" href="sut.jsp?urunKodu=<%=urun.getUrunKodu()%>&urunFotograf=<%=urun.getFotograf()%>&urunAdi=<%=urun.getUrunAdi()%>&urunFiyati=<%=urun.getUrunFiyat()%>"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
+            <figcaption>
+              <h6 class="heading"><%= urun.getUrunAdi() %></h6>
+              <div>
+                <p>Sepete Ekle</p>
+              </div>
+            </figcaption>
+          </figure>
+        </li>
+    <% 
+}
+
+%>
         <li class="one_third first">
           <figure><a class="imgover" href="#"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
             <figcaption>

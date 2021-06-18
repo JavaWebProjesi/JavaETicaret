@@ -23,7 +23,7 @@
             <ul class="nav justify-content-end mt-3 mr-5 " style="margin-left: 200px;">
                 <li class="nav-item hover1 ">
 
-                    <a class="nav-link text-dark " href="adminCikis.jsp"><img src="../img/users.jpg" class="ml-3 img1" alt=""><br>Cikis Yap</a>
+                    <a class="nav-link text-dark " href="adminCikis.jsp"><img src="" class="ml-3 img1" alt=""><br>Cikis Yap</a>
                 </li>
 
 
@@ -42,7 +42,7 @@
                 </div>
 
             </ul>
-            <a href="Home.html"><img src="../img/gk.jpg" class="img2 trans1" alt=""></a>
+            <a href="Home.html"><img src="" class="img2 trans1" alt=""></a>
         </div>
     </div>
 
