@@ -1,3 +1,8 @@
+<%@ page import="java.io.*" %>
+<%@ page language="java" import="java.sql.*" %>
+
+<%@page import ="Controller.urunController,Model.urunModel,java.util.*,Controller.kategoriController,Model.kategoriModel"%>
+
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -212,12 +217,61 @@ ul {
                     <div class="cart_title">Shopping Cart<small> (1 item in your cart) </small></div>
                     <div class="cart_items">
                         <ul class="cart_list">
-                            <li class="cart_item clearfix">
+                        <% 
+                String oturum = (String)session.getAttribute("session");
+
+        %>
+        <%
+                String urk=request.getParameter("urunk");
+                if(urk!=null){
+                    
+                    int sepetUrunSil=Integer.valueOf(urk);
+                    List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
+                    if(sepetim!=null){
+                        
+                        for(urunModel u:sepetim){
+                            
+                            if(u.getUrunKodu()==sepetUrunSil){
+                                
+                                sepetim.remove(u);
+                                break;
+                            }
+                        }
+                        
+                        session.setAttribute("sepet", sepetim);
+                    }
+                }
+                
+                    
+                    List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
+                
+                
+                
+                if(oturum==null){
+                    
+                    sepetim=null;
+                }
+        
+        %>
+        <%int sayac=0; %>
+        <%
+                if(sepetim==null){
+                    %>
+                    
+                    <div class="alert alert-danger" role="alert">
+                          Urun Bulunmamaktadir
+                    </div>
+                    
+                <% }
+                else{
+                    for(urunModel urun:sepetim){
+                             %>
+                             <li class="cart_item clearfix">
                                 <div class="cart_item_image"><img src="https://i.imgur.com/qqBRWD5.jpg" alt=""></div>
                                 <div class="cart_item_info d-flex flex-md-row flex-column justify-content-between">
                                     <div class="cart_item_name cart_info_col">
                                         <div class="cart_item_title">Name</div>
-                                        <div class="cart_item_text">Samsung C7 Pro</div>
+                                        <div class="cart_item_text"><%=urun.getUrunAdi() %></div>
                                     </div>
                                     <div class="cart_item_color cart_info_col">
                                         <div class="cart_item_title">Color</div>
@@ -229,7 +283,7 @@ ul {
                                     </div>
                                     <div class="cart_item_price cart_info_col">
                                         <div class="cart_item_title">Price</div>
-                                        <div class="cart_item_text">₹22000</div>
+                                        <div class="cart_item_text"><%=urun.getUrunFiyat()%></div>
                                     </div>
                                     <div class="cart_item_total cart_info_col">
                                         <div class="cart_item_title">Total</div>
@@ -237,12 +291,18 @@ ul {
                                     </div>
                                 </div>
                             </li>
+                        <%
+                           sayac=sayac+urun.getUrunFiyat();
+                            }
+                        session.setAttribute("sayac",sayac);
+                        }
+            %>
                         </ul>
                     </div>
                     <div class="order_total">
                         <div class="order_total_content text-md-right">
                             <div class="order_total_title">Order Total:</div>
-                            <div class="order_total_amount">₹22000</div>
+                            <div class="order_total_amount"><%=sayac %></div>
                         </div>
                     </div>
                     <div class="cart_buttons"> <button type="button" class="button cart_button_clear">Continue Shopping</button> <button type="button" class="button cart_button_checkout">Add to Cart</button> </div>
