@@ -13,14 +13,14 @@
     </div>
     <div class="fl_right"> 
       <ul class="nospace">
-        <li><a href="uyeGiris.jsp" title="Giriş"><i class="fas fa-sign-in-alt"></i></a></li>
-        <li><a href="kullanici/uyeKayit.jsp" title="Kayıt Ol"><i class="fas fa-user-plus"></i></a></li>
+        <li><a href="uyeGiris.jsp" title="Giris"><i class="fas fa-sign-in-alt"></i></a></li>
+        <li><a href="kullanici/uyeKayit.jsp" title="Kayit Ol"><i class="fas fa-user-plus"></i></a></li>
         <li id="searchform">
           <div>
             <form action="#" method="post">
               <fieldset>
                 <legend>Urun Ara:</legend>
-                <input type="text" placeholder="Ürün Adı&hellip;">
+                <input type="text" placeholder="Urun Adi&hellip;">
                 <button type="submit"><i class="fas fa-search"></i></button>
               </fieldset>
             </form>
@@ -34,11 +34,11 @@
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left"> 
-        <h1><a href="index.html">JavaETicaret</a></h1>
+        <h1><a href="index.jsp">JavaETicaret</a></h1>
       </div>
       <nav id="mainav" class="fl_right"> 
         <ul class="clear">
-          <li class="active"><a href="index.html">Ana Sayfa</a></li>
+          <li class="active"><a href="index.jsp">Ana Sayfa</a></li>
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
               <li><a href="market/meyve.jsp">Meyve, Sebze</a></li>

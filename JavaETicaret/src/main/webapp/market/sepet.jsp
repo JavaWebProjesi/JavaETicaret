@@ -214,7 +214,7 @@ ul {
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
                 <div class="cart_container">
-                    <div class="cart_title">Shopping Cart<small> (1 item in your cart) </small></div>
+                    <div class="cart_title">Sepetiniz<small></small></div>
                     <div class="cart_items">
                         <ul class="cart_list">
                         <% 
@@ -301,11 +301,12 @@ ul {
                     </div>
                     <div class="order_total">
                         <div class="order_total_content text-md-right">
-                            <div class="order_total_title">Order Total:</div>
+                            <div class="order_total_title">Toplam Tutar:</div>
                             <div class="order_total_amount"><%=sayac %></div>
                         </div>
                     </div>
-                    <div class="cart_buttons"> <button type="button" class="button cart_button_clear">Continue Shopping</button> <button type="button" class="button cart_button_checkout">Add to Cart</button> </div>
+                    <br>
+                    <a href="krediKarti.jsp" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Kredi Kartina Gec</a>
                 </div>
             </div>
         </div>

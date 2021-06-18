@@ -41,22 +41,22 @@
   <div class="wrapper row1">
     <header id="header" class="hoc clear">
       <div id="logo" class="fl_left"> 
-        <h1><a href="index.html">JavaETicaret</a></h1>
+        <h1><a href="index.jsp">JavaETicaret</a></h1>
       </div>
       <nav id="mainav" class="fl_right"> 
         <ul class="clear">
-          <li class="active"><a href="index.html">Ana Sayfa</a></li>
+          <li class="active"><a href="index.jsp">Ana Sayfa</a></li>
           <li><a class="drop" href="#">Kategoriler</a>
             <ul>
-              <li><a href="pages/gallery.html">Meyve, Sebze</a></li>
-              <li><a href="pages/full-width.html">Et, Tavuk, Balik</a></li>
-              <li><a href="pages/sidebar-left.html">Sut, Kahvaltilik</a></li>
-              <li><a href="pages/sidebar-right.html">Icecek</a></li>
-              <li><a href="pages/basic-grid.html">Gida, Sekerleme</a></li>
-              <li><a href="pages/font-icons.html">Dondurma</a></li>
+              <li><a href="meyve.jsp">Meyve, Sebze</a></li>
+              <li><a href="et.jsp">Et, Tavuk, Balik</a></li>
+              <li><a href="sut.jsp">Sut, Kahvaltilik</a></li>
+              <li><a href="icecek.jsp">Icecek</a></li>
+              <li><a href="gida.jsp">Gida, Sekerleme</a></li>
+              <li><a href="dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
-          <li><a class="drop" href="#">Sepetim</a>
+          <li><a class="drop" href="market/sepet.jsp">Sepetim</a>
           </li>
         </ul>
       </nav>
