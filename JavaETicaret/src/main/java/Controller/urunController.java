@@ -52,11 +52,11 @@ public class urunController extends databaseConnection{
 	     }
 	
 	
-	public List<urunModel> readingData(){
+	public List<urunModel> readingData(String sorgu){
 		
 	   	 	 	   try {
 
-	 		   String sorgu="SELECT * FROM urun";
+	 		   
 	 		   Class.forName("com.mysql.jdbc.Driver");
 	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 	            ps=con.prepareStatement(sorgu);

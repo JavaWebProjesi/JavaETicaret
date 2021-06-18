@@ -133,7 +133,7 @@
                  %>
 <%
 urunController data=new urunController();
-List<urunModel> urunler=data.readingData();
+List<urunModel> urunler=data.readingData("SELECT * FROM urun WHERE kategoriKodu=4");
 for(urunModel urun:urunler){
     %>
     
