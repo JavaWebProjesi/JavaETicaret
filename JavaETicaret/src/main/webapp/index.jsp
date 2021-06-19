@@ -45,7 +45,7 @@
               <li><a href="market/et.jsp">Et, Tavuk, Balik</a></li>
               <li><a href="market/sut.jsp">Sut, Kahvaltilik</a></li>
               <li><a href="market/icecek.jsp">Icecek</a></li>
-              <li><a href="market/gida.jsp">Gida, Sekerleme</a></li>
+              <li><a href="market/gida.jsp">Gida</a></li>
               <li><a href="market/dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
@@ -119,9 +119,9 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="market/gida.jsp"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
+          <figure><a class="imgover" href="market/gida.jsp"><img src="https://www.gidahatti.com/wp-content/uploads/2018/10/bakliyat-gidahatti-1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Gida - Sekerleme</h6>
+              <h6 class="heading">Gida</h6>
               <div>
                 <p>Goz At</p>
               </div>
