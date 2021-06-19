@@ -4,7 +4,7 @@
 
 <%
 		urunController data=new urunController();
-		List<urunModel> urunler=data.readingData();
+		List<urunModel> urunler=data.readingData("select * from urun");
 %>
 
 
