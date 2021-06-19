@@ -15,6 +15,7 @@
       <ul class="nospace">
         <li><a href="uyeGiris.jsp" title="Giris"><i class="fas fa-sign-in-alt"></i></a></li>
         <li><a href="kullanici/uyeKayit.jsp" title="Kayit Ol"><i class="fas fa-user-plus"></i></a></li>
+        <li><a href="cikis.jsp" title="Cikis Yap"><i class="fas fa-sign-out-alt"></i></a></li>
         <li id="searchform">
           <div>
             <form action="#" method="post">
