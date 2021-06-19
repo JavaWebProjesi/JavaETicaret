@@ -267,27 +267,15 @@ ul {
                     for(urunModel urun:sepetim){
                              %>
                              <li class="cart_item clearfix">
-                                <div class="cart_item_image"><img src="https://i.imgur.com/qqBRWD5.jpg" alt=""></div>
+                                <div class="cart_item_image"><img src=<%= urun.getFotograf() %>alt="" /></div>
                                 <div class="cart_item_info d-flex flex-md-row flex-column justify-content-between">
                                     <div class="cart_item_name cart_info_col">
-                                        <div class="cart_item_title">Name</div>
+                                        <div class="cart_item_title">Urun Adi</div>
                                         <div class="cart_item_text"><%=urun.getUrunAdi() %></div>
                                     </div>
-                                    <div class="cart_item_color cart_info_col">
-                                        <div class="cart_item_title">Color</div>
-                                        <div class="cart_item_text"><span style="background-color:#999999;"></span>Silver</div>
-                                    </div>
-                                    <div class="cart_item_quantity cart_info_col">
-                                        <div class="cart_item_title">Quantity</div>
-                                        <div class="cart_item_text">1</div>
-                                    </div>
                                     <div class="cart_item_price cart_info_col">
-                                        <div class="cart_item_title">Price</div>
+                                        <div class="cart_item_title">Urun Fiyat</div>
                                         <div class="cart_item_text"><%=urun.getUrunFiyat()%></div>
-                                    </div>
-                                    <div class="cart_item_total cart_info_col">
-                                        <div class="cart_item_title">Total</div>
-                                        <div class="cart_item_text">₹22000</div>
                                     </div>
                                 </div>
                             </li>
