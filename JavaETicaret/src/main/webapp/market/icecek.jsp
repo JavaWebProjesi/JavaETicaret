@@ -75,9 +75,9 @@
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="http://www.gidavitrini.com.tr/images/haberler/81_ile_sebze_meyve_talimati_h12870.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08060191/abant-dogal-kaynak-suyu-1-5-l-aa2331.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Meyve - Sebze</h6>
+              <h6 class="heading">Abant Doğal Kaynak Suyu 1,5 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -85,9 +85,9 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/11550473/sutas-pratik-sise-ayran-2-l-f781c2.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Et - Tavuk - Balik</h6>
+              <h6 class="heading">Sütaş Ayran 2 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -95,9 +95,9 @@
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08060172/08060172-bc083d.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Sut - Kahvaltilik</h6>
+              <h6 class="heading">Uludağ Limonata Şekersiz 1 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -154,9 +154,9 @@ for(urunModel urun:urunler){
 
 %>
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08059596/08059596-0be6a2.png" alt=""></a>
             <figcaption>
-              <h6 class="heading">İçecek</h6>
+              <h6 class="heading">Lipton Ice Tea Şeftali 2 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -164,9 +164,9 @@ for(urunModel urun:urunler){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08054914/08054914-91598b.png" alt=""></a>
             <figcaption>
-              <h6 class="heading">Gıda - Şekerleme</h6>
+              <h6 class="heading">Dimes %100 Karışık Meyve Suyu 1 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -174,9 +174,9 @@ for(urunModel urun:urunler){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://i.ytimg.com/vi/cc-BqBgE8dU/maxresdefault.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/08010700/08010700-f5b4a6.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Dondurma</h6>
+              <h6 class="heading">Coco-Cola 1 L</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -194,9 +194,9 @@ for(urunModel urun:urunler){
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
         <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="http://www.gidavitrini.com.tr/images/haberler/81_ile_sebze_meyve_talimati_h12870.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/03222651/03222651-25d377.png" alt=""></a>
             <figcaption>
-              <h6 class="heading">Meyve - Sebze</h6>
+              <h6 class="heading">Nescafe 3'Ü 1 Arada 15'li</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -204,9 +204,9 @@ for(urunModel urun:urunler){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://www.acibademhayat.com/Images/YayinMakaleler/kirmizi-et-balik-ve-beyaz-et-secme-tuyolari_1693_1.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/03111315/03111315-b8d5d1.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Et - Tavuk - Balık</h6>
+              <h6 class="heading">Çaykur Tiryaki Çayı 1000 G</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
@@ -214,49 +214,9 @@ for(urunModel urun:urunler){
           </figure>
         </li>
         <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://www.sanalkahvalti.com/Upload/websliderkhvlt04.jpg" alt=""></a>
+          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/11550907/11550907-3f13b2.jpg" alt=""></a>
             <figcaption>
-              <h6 class="heading">Süt - Kahvaltılık</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section>
-    <hr class="btmspace-80">
-    <div class="clear"></div>
-  </main>
-</div>
-<div class="wrapper row3">
-  <main class="hoc container clear"> 
-    <section id="introblocks">
-      <ul class="nospace group btmspace-80">
-        <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="https://foto.haberler.com/haber/2019/07/12/gazli-icecek-icenlere-kanser-konusunda-kotu-h-12236189_o.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">İçecek</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://geoim.bloomberght.com/2020/07/17/ver1594982604/2260289_620x349.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Gıda - Şekerleme</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
-        <li class="one_third">
-          <figure><a class="imgover" href="#"><img src="https://i.ytimg.com/vi/cc-BqBgE8dU/maxresdefault.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Dondurma</h6>
+              <h6 class="heading">Altınkılıç Kefirix Orman Meyveli 250 Ml</h6>
               <div>
                 <p>Sepete Ekle</p>
               </div>
