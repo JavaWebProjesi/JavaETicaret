@@ -67,7 +67,7 @@
 
                           <button class="btn bg-secondary btn-lg btn-block mt-5 ml-1 mb-4"  type="submit" style="color: white" >Giris</button>
                     </form>
-                    <button class="btn bg-secondary btn-lg btn-block mt-5 ml-1 mb-4"  type="submit" style="color: white" >Admin Giris</button>
+                    <a href="admin/adminGiris.jsp" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Admin Giris</a>
 
 
                 </div>

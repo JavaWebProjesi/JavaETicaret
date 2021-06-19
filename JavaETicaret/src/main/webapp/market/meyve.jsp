@@ -56,7 +56,7 @@
               <li><a href="dondurma.jsp">Dondurma</a></li>
             </ul>
           </li>
-          <li><a class="drop" href="market/sepet.jsp">Sepetim</a>
+          <li><a class="drop" href="sepet.jsp">Sepetim</a>
           </li>
         </ul>
       </nav>
@@ -134,6 +134,8 @@
 <%
 urunController data=new urunController();
 List<urunModel> urunler=data.readingData("SELECT * FROM urun WHERE kategoriKodu=1");
+
+
 for(urunModel urun:urunler){
     %>
     
@@ -149,8 +151,8 @@ for(urunModel urun:urunler){
             </figcaption>
           </figure>
         </li>
-    <% 
-}
+    <% }
+
 
 %>
         
@@ -164,16 +166,16 @@ for(urunModel urun:urunler){
   <main class="hoc container clear"> 
     <section id="introblocks">
       <ul class="nospace group btmspace-80">
-        <li class="one_third first">
-          <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27260002/limon-kg-fbc52a.jpg" alt=""></a>
-            <figcaption>
-              <h6 class="heading">Limon</h6>
-              <div>
-                <p>Sepete Ekle</p>
-              </div>
-            </figcaption>
-          </figure>
-        </li>
+   <li class="one_third first">
+<figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/27260002/limon-kg-fbc52a.jpg" alt=""></a>
+  <figcaption>
+    <h6 class="heading">Limon</h6>
+    <div>
+      <p>Sepete Ekle</p>
+    </div>
+  </figcaption>
+</figure>
+</li>
         <li class="one_third">
           <figure><a class="imgover" href="#"><img src="https://migros-dali-storage-prod.global.ssl.fastly.net/sanalmarket/product/28290036/28290036-6a65f9.jpg" alt=""></a>
             <figcaption>

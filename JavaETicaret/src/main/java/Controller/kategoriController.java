@@ -16,7 +16,7 @@ public class kategoriController extends databaseConnection{
 	 	   try {
 	 		   String sorgu="SELECT * FROM kategori";
 	 		   Class.forName("com.mysql.jdbc.Driver");
-	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+	 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 	            ps=con.prepareStatement(sorgu);
 	            ResultSet rs=ps.executeQuery();
 	            List<kategoriModel> liste=new ArrayList<>();
@@ -55,7 +55,7 @@ public class kategoriController extends databaseConnection{
 		 	   try {
 		 		   String sorgu="INSERT INTO kategori(kategoriId,kategoriAdi) VALUES(?,?)";
 		 		   Class.forName("com.mysql.jdbc.Driver");
-		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+		 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 		            ps=con.prepareStatement(sorgu);
 		           
 		            
@@ -103,7 +103,7 @@ public class kategoriController extends databaseConnection{
 				try {
 					String sorgu="DELETE FROM kategori WHERE kategoriId=?";
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 					ps=con.prepareStatement(sorgu);	 
 					
 		            ps.setInt(1, kategori.getKategoriId());
@@ -142,7 +142,7 @@ public class kategoriController extends databaseConnection{
 				try {
 					String sorgu="UPDATE kategori SET kategoriAdi=? WHERE kategoriId=?";
 					Class.forName("com.mysql.jdbc.Driver");
-					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+					con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 					ps=con.prepareStatement(sorgu);	    
 			        
 		            ps.setString(1, kategori.getKategoriAdi());
@@ -183,7 +183,7 @@ public class kategoriController extends databaseConnection{
 									
 									String sorgu="SELECT kategoriId FROM kategori";
 						 		   	Class.forName("com.mysql.jdbc.Driver");
-						 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","");
+						 		    con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/eticaret?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=GMT","root","Asdfg1234..");
 						            ps=con.prepareStatement(sorgu);		            
 						            ResultSet rs=ps.executeQuery();
 						            while(rs.next()) 
