@@ -241,17 +241,11 @@ ul {
                         session.setAttribute("sepet", sepetim);
                     }
                 }
-                
-                    
-                    List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
-                
-                
-                
-                if(oturum==null){
+                 List<urunModel> sepetim= (List<urunModel>)session.getAttribute("sepet");
+             if(oturum==null){
                     
                     sepetim=null;
                 }
-        
         %>
         <%int sayac=0; %>
         <%

@@ -11,31 +11,12 @@ public class siparisModel {
 	 private String odemeTipi;
 	 private String uyekullaniciAdi;
 	 
-	 
-	 
-	 
-
-
-
-	
-
-
-	public String getUyekullaniciAdi() {
+public String getUyekullaniciAdi() {
 		return uyekullaniciAdi;
 	}
-
-
-
-
-
-	public void setUyekullaniciAdi(String uyekullaniciAdi) {
+public void setUyekullaniciAdi(String uyekullaniciAdi) {
 		this.uyekullaniciAdi = uyekullaniciAdi;
 	}
-
-
-
-
-
 	public siparisModel(int siparisKodu, String siparisTarihi, String isleme, String hazirlanma, String kargolanma,
 			String teslim, String odemeTipi, String uyekullaniciAdi) {
 		
@@ -50,9 +31,6 @@ public class siparisModel {
 	}
 
 
-	
-
-
 	public siparisModel(String siparisTarihi, String isleme, String hazirlanma, String kargolanma, String teslim,
 			String odemeTipi, String uyekullaniciAdi) {
 		super();
@@ -64,10 +42,6 @@ public class siparisModel {
 		this.odemeTipi = odemeTipi;
 		this.uyekullaniciAdi = uyekullaniciAdi;
 	}
-
-
-
-
 
 	public siparisModel(int siparisKodu, String siparisTarihi, String isleme, String hazirlanma, String kargolanma,
 			String teslim, String odemeTipi) {
@@ -150,13 +124,5 @@ public class siparisModel {
 	public void setOdemeTipi(String odemeTipi) {
 		this.odemeTipi = odemeTipi;
 	}
-
-
-
-	 
-	 
-	
-	
-     
-     
+    
 }
