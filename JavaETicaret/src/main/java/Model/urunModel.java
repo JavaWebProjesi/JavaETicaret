@@ -1,6 +1,4 @@
 package Model;
-
-
 public class urunModel {
 
 	private int urunKodu;

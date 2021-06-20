@@ -37,16 +37,10 @@
  	    				</div>
  						<% }
 					%>
-
-                	
-
-                <div style="margin-top:80px;" class="p-3 mb-3">
-                
-                
-                    <form class="needs-validation" action="girisControl.jsp"  novalidate >
-
-
-                        <div class="md mt-3">
+				 <div style="margin-top:80px;" class="p-3 mb-3">
+                  <form class="needs-validation" action="girisControl.jsp"  novalidate >
+                  
+                  <div class="md mt-3">
 
                             <div class="input-group">
                                 
